@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		CE4D13CB20F134B3005F4615 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE4D13CA20F134B3005F4615 /* main.cpp */; };
+		CE4D13DB20F134F4005F4615 /* LineSegment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE4D13D220F134F3005F4615 /* LineSegment.cpp */; };
+		CE4D13DC20F134F4005F4615 /* Vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE4D13D320F134F3005F4615 /* Vector.cpp */; };
+		CE4D13DE20F134F4005F4615 /* Polygon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE4D13D520F134F4005F4615 /* Polygon.cpp */; };
+		CE4D13DF20F134F4005F4615 /* Math.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE4D13D820F134F4005F4615 /* Math.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,14 @@
 /* Begin PBXFileReference section */
 		CE4D13C720F134B3005F4615 /* GeoLib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GeoLib; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE4D13CA20F134B3005F4615 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CE4D13D120F134F3005F4615 /* LineSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineSegment.h; sourceTree = "<group>"; };
+		CE4D13D220F134F3005F4615 /* LineSegment.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LineSegment.cpp; sourceTree = "<group>"; };
+		CE4D13D320F134F3005F4615 /* Vector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vector.cpp; sourceTree = "<group>"; };
+		CE4D13D520F134F4005F4615 /* Polygon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Polygon.cpp; sourceTree = "<group>"; };
+		CE4D13D620F134F4005F4615 /* Vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector.h; sourceTree = "<group>"; };
+		CE4D13D720F134F4005F4615 /* Math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Math.h; sourceTree = "<group>"; };
+		CE4D13D820F134F4005F4615 /* Math.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Math.cpp; sourceTree = "<group>"; };
+		CE4D13D920F134F4005F4615 /* Polygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Polygon.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +69,14 @@
 		CE4D13C920F134B3005F4615 /* GeoLib */ = {
 			isa = PBXGroup;
 			children = (
+				CE4D13D220F134F3005F4615 /* LineSegment.cpp */,
+				CE4D13D120F134F3005F4615 /* LineSegment.h */,
+				CE4D13D820F134F4005F4615 /* Math.cpp */,
+				CE4D13D720F134F4005F4615 /* Math.h */,
+				CE4D13D520F134F4005F4615 /* Polygon.cpp */,
+				CE4D13D920F134F4005F4615 /* Polygon.h */,
+				CE4D13D320F134F3005F4615 /* Vector.cpp */,
+				CE4D13D620F134F4005F4615 /* Vector.h */,
 				CE4D13CA20F134B3005F4615 /* main.cpp */,
 			);
 			path = GeoLib;
@@ -120,6 +140,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE4D13CB20F134B3005F4615 /* main.cpp in Sources */,
+				CE4D13DE20F134F4005F4615 /* Polygon.cpp in Sources */,
+				CE4D13DB20F134F4005F4615 /* LineSegment.cpp in Sources */,
+				CE4D13DF20F134F4005F4615 /* Math.cpp in Sources */,
+				CE4D13DC20F134F4005F4615 /* Vector.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
